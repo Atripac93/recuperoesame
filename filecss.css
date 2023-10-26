@@ -68,7 +68,7 @@ body{
 .new{
     color:#174E24 ;
     background-color: #B5E6C1;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .list2{
     margin-right: 3px;
@@ -156,11 +156,10 @@ body{
     padding-left: 80px;
 }
 .imgcentro img{
-    margin-top: -400px;
-    margin-left: 675px;
+    margin-top: -240px;
+    margin-left: 1300px;
     width: 635px;
-    height: 250px;
-  
+    height: 260px;
 }
 .container{
     display: flex;
@@ -168,12 +167,12 @@ body{
     align-items: center;
 }
 .card1 {
-    display: flex; /* Abilita il layout flessibile */
-    align-items: center; /* Allinea verticalmente al centro */
-    justify-content: center; /* Allinea orizzontalmente al centro */
-    flex-direction: column; /* In caso di testo, impedisce che il testo si estenda oltre il card */
-    background: rgba(255, 255, 255, 0.7); /* Sfondo con trasparenza */
-    border-radius: 10px; /* Bordo arrotondato opzionale */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 2px; 
     padding: 20px;
     width: 600px; 
     height: 220px;
@@ -222,6 +221,31 @@ body{
     margin-top: 20px;
     right:40px;
 }
+.colonnades{
+    position: absolute;
+    margin-top: 40px;
+    right: 40px;
+    padding: 5px;
+    color: #888;
+    font-size: 16px;
+    
+}
+.linea-blu{
+    background-color: #004c78;
+    color: #004c78;
+    height: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    margin-left: 10px;
+    padding-right: 50px;
+}
+.pro{
+    color: #48aee9;
+    margin-left: 40%;
+    margin-top: -20px;
+    font-size: 18px;
+}
+
 .imgpiedepag{
     display: flex;
     justify-content: center;
@@ -234,16 +258,120 @@ body{
     padding: 20px;
     padding-left: 90px;
 }
-.imgsx{
-    width: 900px;
-    height: 180px;
-    margin:0px 10px;
+.card2{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 2px; 
+    padding: 10px;
+    margin: 0;
+    width: 800px; 
+    height: 150px;
+    text-align: left;
+
 }
-.imgdx{
-    width: 375px;
-    height: 180px;
-    margin: 0px 10px;
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    
 }
+.using{
+    margin-left: -580px;
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.linea2{
+    padding: 20px;
+}
+.linea-blu2{
+    background-color: #004c78;
+    color: #004c78;
+    height: 5px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.linea-azzur{
+background-color: #48aee9;
+color: #48aee9;
+height: 5px;
+border-radius: 10px 10px 10px 10px;
+}
+.linea-verde{
+background-color: green;
+ color: green;
+height: 5px;
+border-radius: 10px 10px 10px 10px
+}
+.linea-grigia{
+background-color: rgb(209, 204, 204);
+color: rgb(209, 204, 204);
+height: 5px;
+border-radius: 10px 10px 10px 10px
+}
+.regular{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+.lar{
+    background-color: #004c78;
+    color: #004c78;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+}
+.em{
+    background-color:#48aee9;
+    color:#48aee9;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+}
+.ed{
+    background-color:green;
+    color: green;
+    border-radius: 50px 50px 50px 50px;
+    border-style: none;
+}
+.ee{
+    background-color:rgb(209, 204, 204);
+    color: rgb(209, 204, 204);
+    border-radius: 50px 50px 50px 50px;
+    border-style: none; 
+}
+.card3{
+    background-color: white;
+    border-radius: 2px; 
+    padding: 10px; 
+    height: 150px;
+    width: 410px;
+    margin-left: 50px;
+
+}
+.card2 .card3{
+    flex: 1;
+    margin: 10px;
+}
+h2{
+    color: orange;
+
+}
+.testino{
+    padding-top: 5px;
+    color: #888;
+}
+.up{
+    color: orange;
+    font-size: 15px; 
+}
+
+
+
+
+
+
 .imgfinal{
     position: absolute;
     top: 25%;
