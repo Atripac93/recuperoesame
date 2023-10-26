@@ -97,6 +97,55 @@ body{
     width: 290px;
     margin:20px;
 }
+
+    .card {
+        display: flex;
+        position: absolute;
+        top: 5%;
+        align-content: center;
+        margin-top: 15px;
+        margin-left: 1000px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        background-color: #fff;
+        text-align: right;
+        width: 280px;
+        height: 170px;
+    }
+    .card img.sole{
+        width: 50px;
+        height: 40px;
+        margin-top: 80px;
+    }
+    .weather{
+        margin-left: -60px;
+        margin-top: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    .york{
+        font-size: small;
+        margin-top: 70px;
+        margin-right: 50px;
+        color: #14213D;
+    }
+    .sunny{
+        display: flex;
+        color: orange;
+    }
+    .puntini{
+    padding-top: 20px;
+    }
+
+    .temperatura{
+        margin-top: 55px;
+    }
+    .caldo{
+        font-size: 40px;
+        color: #48aee9;
+    }
 .imgcentro{
     position: absolute;
     top: 25%;
@@ -104,12 +153,74 @@ body{
     margin-top: 60px;
     margin-left: 80px;
     padding: 20px;
-    padding-left: 90px;
+    padding-left: 80px;
 }
 .imgcentro img{
+    margin-top: -400px;
+    margin-left: 675px;
     width: 635px;
     height: 250px;
-    margin:0px 10px;   
+  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1 {
+    display: flex; /* Abilita il layout flessibile */
+    align-items: center; /* Allinea verticalmente al centro */
+    justify-content: center; /* Allinea orizzontalmente al centro */
+    flex-direction: column; /* In caso di testo, impedisce che il testo si estenda oltre il card */
+    background: rgba(255, 255, 255, 0.7); /* Sfondo con trasparenza */
+    border-radius: 10px; /* Bordo arrotondato opzionale */
+    padding: 20px;
+    width: 600px; 
+    height: 220px;
+    margin-left: 20px;
+  }
+.colonnasini{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+.titulo{
+    font-size: bold;
+    color: #14213D;
+}
+.f{
+    border-radius: 9px;
+    background-color: #48aee9;
+    
+}
+.r{
+    border-radius: 9px;
+    background-color: greenyellow;
+    
+
+}
+.b{
+    border-radius: 9px;
+    background: #48aee9;
+    
+}
+.r1{
+    border-radius: 8px;
+    background-color: orange;
+    
+}
+.s{
+    border-radius: 8px;
+    background-color: red;
+    
+}
+.work{
+    position:absolute;
+    margin-top: 20px;
+    right:40px;
 }
 .imgpiedepag{
     display: flex;
