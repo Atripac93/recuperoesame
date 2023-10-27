@@ -7,7 +7,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   /* align-items: center;*/
 }
 .logo{
     display: flex;
@@ -17,7 +17,6 @@ body{
 
 }
 .facebook img{
-    text-decoration: transparent;
     width: 60px;
 }
 .search{
@@ -82,9 +81,8 @@ body{
 .gris{
     color: #888;
 }
-.restopagina{
-    margin-left: 5px;
-}
+.restopagina
+
 .imgalte {
     position: absolute;
     top: 5%;
@@ -103,32 +101,29 @@ body{
         position: absolute;
         top: 5%;
         align-content: center;
-        margin-top: 15px;
         margin-left: 1000px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
         padding: 10px;
         background-color: #fff;
-        text-align: right;
         width: 280px;
         height: 170px;
+        margin-top: 18px;
+
     }
     .card img.sole{
-        width: 50px;
+        width: 40px;
         height: 40px;
         margin-top: 80px;
     }
     .weather{
-        margin-left: -60px;
+        margin-left: -70px;
         margin-top: 20px;
         font-weight: bold;
         color: black;
     }
     .york{
-        font-size: small;
+        font-weight: bold;
         margin-top: 70px;
-        margin-right: 50px;
         color: #14213D;
     }
     .sunny{
@@ -137,6 +132,7 @@ body{
     }
     .puntini{
     padding-top: 20px;
+    padding: 5px;
     }
 
     .temperatura{
@@ -156,16 +152,12 @@ body{
     padding-left: 80px;
 }
 .imgcentro img{
-    margin-top: -240px;
+    margin-top: -230px;
     margin-left: 1300px;
     width: 635px;
-    height: 260px;
+    height: 265px;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .card1 {
     display: flex; 
     align-items: center; 
@@ -175,51 +167,74 @@ body{
     border-radius: 2px; 
     padding: 20px;
     width: 600px; 
-    height: 220px;
+    height: 225px;
     margin-left: 20px;
   }
 .colonnasini{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    text-align: left;
     padding-right: 500px;
-    padding-bottom: 10px;
 }
-.titulo{
-    font-size: bold;
-    color: #14213D;
-}
+
 .f{
-    border-radius: 9px;
-    background-color: #48aee9;
+    background-color: #B7D2E6;
+    color:#2B3A67 ;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 7px;
     
 }
 .r{
-    border-radius: 9px;
-    background-color: greenyellow;
+    background-color:#E4F1E6 ;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:10px;
+    padding: 7px;
     
 
 }
 .b{
-    border-radius: 9px;
-    background: #48aee9;
+    background-color: #B7D2E6;
+    color: #48aee9;
+    font-weight: bold;
+    border-radius:10px;
+    padding: 6px;
     
 }
 .r1{
-    border-radius: 8px;
-    background-color: orange;
+    background-color: #F5AEA3;
+    color: orange;
+    font-weight: bold;
+    border-radius:10px;
+    padding: 6px;
     
 }
 .s{
-    border-radius: 8px;
-    background-color: red;
+    background-color:#FFA399 ;
+    color: red;
+    border-radius:10px;
+    padding: 7px;
     
+}
+.number{
+    color: #004c78;
+    background-color:#D3F7FF;
+    font-weight: bold;
+    font-size: 7px;
+    border-radius:4px;
+    margin:7px;
+   
 }
 .work{
     position:absolute;
     margin-top: 20px;
     right:40px;
+    color: #888;
+    font-weight: bold;
 }
 .colonnades{
     position: absolute;
@@ -230,14 +245,19 @@ body{
     font-size: 16px;
     
 }
+.cifre{
+    font-weight: bold;
+
+
+}
 .linea-blu{
     background-color: #004c78;
     color: #004c78;
-    height: 5px;
-    border-radius: 10px 10px 10px 10px;
-    border-style: groove;
+    border-radius: 9px 9px 9px 9px;
+    border-style: none;
     margin-left: 10px;
     padding-right: 50px;
+    
 }
 .pro{
     color: #48aee9;
@@ -264,13 +284,13 @@ body{
     justify-content: center; 
     flex-direction: column;
     background: rgba(255, 255, 255, 0.7); 
-    border-radius: 2px; 
-    padding: 10px;
+    padding: 30px;
+    padding-bottom: 0px;
     margin: 0;
     width: 800px; 
     height: 150px;
-    text-align: left;
-
+    margin-left: 9px;
+    margin-top: 8px;
 }
 .container2{
     display: flex;
@@ -314,8 +334,10 @@ border-radius: 10px 10px 10px 10px
 .regular{
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
-    padding: 10px;
+    gap: 30px;
+    padding-top: 25px;
+    color: #D5DEE4;
+    
 }
 .lar{
     background-color: #004c78;
@@ -345,9 +367,10 @@ border-radius: 10px 10px 10px 10px
     background-color: white;
     border-radius: 2px; 
     padding: 10px; 
-    height: 150px;
-    width: 410px;
-    margin-left: 50px;
+    height: 160px;
+    width: 390px;
+    margin-left: 20px;
+    margin-top: 8px;
 
 }
 .card2 .card3{
@@ -366,17 +389,11 @@ h2{
     color: orange;
     font-size: 15px; 
 }
-
-
-
-
-
-
 .imgfinal{
     position: absolute;
     top: 25%;
     align-items: center;
-    margin-top: 520px;
+    margin-top: 530px;
     margin-left: 80px;
     padding: 20px;
     padding-left: 90px;
